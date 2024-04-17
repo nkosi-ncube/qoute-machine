@@ -4,15 +4,15 @@ import datetime
 
 # Twilio credentials
 
-client = Client(account_sid, auth_token) 
+# client = Client(account_sid, auth_token) 
 TWILIO_PHONE_NUMBER='+14155238886'
 twilio_phone_number = '+14155238886'
 
 # AccuWeather API key
 
 
-# Initialize Twilio client
-client = Client(account_sid, auth_token)
+# # Initialize Twilio client
+# client = Client(account_sid, auth_token)
 
 # Function to fetch and handle incoming messages
 def handle_incoming_messages(messages):

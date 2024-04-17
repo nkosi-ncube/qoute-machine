@@ -4,7 +4,7 @@ from another_api import *
 
 
 
-client = Client(account_sid, auth_token) 
+# client = Client(account_sid, auth_token) 
 TWILIO_PHONE_NUMBER='+14155238886'
 twilio_phone_number = '+14155238886'
 

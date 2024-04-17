@@ -3,14 +3,13 @@ import requests
 import datetime
 
 # Twilio credentials
-account_sid = "ACe0ab16dbb0b431253ade224d7b338c7e"
-auth_token = "bd081e57c29690b3bb3162b2a2e540ba"
+
 client = Client(account_sid, auth_token) 
 TWILIO_PHONE_NUMBER='+14155238886'
 twilio_phone_number = '+14155238886'
 
 # AccuWeather API key
-api_key = "i48upf2IuunQr1GPTCywwr0zXAbj7tsL"
+
 
 # Initialize Twilio client
 client = Client(account_sid, auth_token)
